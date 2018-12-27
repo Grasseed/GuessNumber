@@ -53,7 +53,7 @@ namespace GuessNumber
                         {
                             Console.Write(number[k]);
                         }
-                        goto Find;  //直接跳至程式結束的區域
+                        break;  //直接跳至程式結束的區域
                     }
                     else
                     {
@@ -112,7 +112,7 @@ namespace GuessNumber
                     }
                 }
             }
-        Find:    //程式結束區       
+            //程式結束區       
             Console.Read();
         }
     }
