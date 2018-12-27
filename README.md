@@ -65,7 +65,7 @@ for(int q = 0; q <= 3;q++)
 ```
 基本數值類型也會實作 Parse 靜態方法，但如果字串不是有效數字，則會擲回例外狀況。 TryParse 通常更具效率，因為它在數字不正確時就會傳回 false。
 ```
--用法:
+- 用法:
 ```
 bool result = int.TryParse(sx, out n);
 //如果字串包含非數值字元，或所指定之特定類型的數值太大或太小，則 TryParse 會傳回 false，並將 out 參數設定為零。 否則會傳回 true，並將 out 參數設定為字串的數值。
